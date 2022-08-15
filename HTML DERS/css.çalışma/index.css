@@ -1,0 +1,77 @@
+
+body{
+    background-color: black;
+    color:aliceblue
+}
+.container{
+    border: 2px solid red;
+    width: 80%;
+    margin:auto;
+    background-color: rgb(52, 51, 51);
+    border-radius:20px;
+    
+}
+
+#title{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.heading{
+    font-family: 'Lobster', cursive;
+}
+#span1{
+    color: red;
+}
+#img-div{
+    /* border:2px solid red; */
+    text-align: center;
+   
+}
+#image{
+    width: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: 5px 50 px red;
+    border-radius: 30px;
+}
+#date{
+    text-align: center;
+}
+#info{
+    width: 80%;
+    margin: 20px auto;
+    text-align:justify ;
+    font-size: 25px;
+}
+#marvel{
+    color: red;
+    margin-left: 10px;
+}
+ul{
+    width: 80%;
+    margin: auto;
+}
+li{
+    font-size: 24px;
+    line-height: 3rem;
+}
+#footer{
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+#link{
+    text-decoration: none;
+    color: white;
+    border: 2px solid darkgoldenrod;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(52, 51, 51);
+}
+#link:hover{
+    background-color: darkgoldenrod;
+    color: red;
+}

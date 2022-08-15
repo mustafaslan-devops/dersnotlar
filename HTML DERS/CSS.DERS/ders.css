@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+}
+.continer{
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(88, 94, 88);
+    border-radius: 20px;
+
+}
+#title{
+    font-size: 70px;
+    text-align: center;
+
+}
+.heading{
+    font-family: font-family: 'Lato', sans-serif;;
+}
+#span1{
+    color: red;
+}
+#img-div{
+    /*border: 2px solid red;*/
+    text-align: center;
+    font-size: 20px;
+}
+#resim{
+    width: 700px;
+    box-shadow: 5px 5 px 20 px green;
+}
+#info{
+    border: 2px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+
+}
+#gs{
+    color: red;
+    margin-left: 10%;
+}
+ul{
+    width: 80%;
+    margin: auto;
+
+
+}
+li{
+    font-size: 24px;
+    line-height: 3rem;
+}
+#futbol{
+    border: 2px solid red;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#link{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    border: 2px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+#link:hover{
+    background-color: red;
+}
+#youtube{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 1px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+#youtube:hover{
+    background-color: royalblue;
+}

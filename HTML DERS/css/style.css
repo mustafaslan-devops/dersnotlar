@@ -1,0 +1,70 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: black;
+    border-bottom: 6px solid red;
+}
+#header a {
+    color: white;
+    text-decoration: none ;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header li {
+    display:inline ;
+    padding: 0 20px;
+    font-family: 'Lobster', cursive;
+}
+#branding {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#spancolor {
+    color: red;
+}
+#main {
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 90vh;
+}
+#main h1 {
+    font-size: 70px;
+    margin: 200px 0 20px;
+    font-family: 'Lobster', cursive;;
+}
+#main p {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color:crimson;
+}
+#about, #contact {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0 10px ;
+    background-color: black;
+}
+#about h2, #contact h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+}
+#about p, #contact p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0 10px ;
+    color: white;
+}
